@@ -29,7 +29,6 @@ let config: IConfigOptions =  {
     redis: {
         host: process.env.REDIS_URL || 'localhost',
         port: (process.env.REDIS_PORT && parseInt(process.env.REDIS_PORT)) || 6379,
-        auth_pass: process.env.REDIS_PASSWORD||'HorO^($(9496sCopE',
     },
     mail: {
       host: 'smtp-mail.outlook.com',
